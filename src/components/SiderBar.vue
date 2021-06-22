@@ -77,7 +77,7 @@
       >
         <template #icon>
           <n-icon>
-            <book />
+            <pencil />
           </n-icon>
         </template>
         <span class="btn-title">设计美化</span>
@@ -94,7 +94,7 @@
       >
         <template #icon>
           <n-icon>
-            <book />
+            <newspaper />
           </n-icon>
         </template>
         <span class="btn-title">资讯新闻</span>
@@ -106,7 +106,7 @@
 
 <script>
 import { defineComponent, ref } from "vue";
-import { Earth, Build, Fish, Book } from "@vicons/ionicons5";
+import { Earth, Build, Fish, Book, Pencil, Newspaper } from "@vicons/ionicons5";
 
 export default defineComponent({
   name: "SiderBar",
@@ -115,6 +115,8 @@ export default defineComponent({
     Build,
     Fish,
     Book,
+    Pencil,
+    Newspaper
   },
   emits: ["categoryClick"],
 
