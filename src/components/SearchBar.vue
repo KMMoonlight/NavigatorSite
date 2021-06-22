@@ -81,7 +81,7 @@ export default defineComponent({
         let newHref = "";
         switch (nowSearchEngine.value.key) {
           case "google":
-            newHref = https://www.google.com/search?q=${searchContent.value}`;
+            newHref = `https://www.google.com/search?q=${searchContent.value}`;
             break;
 
           case "baidu":
