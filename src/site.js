@@ -3,6 +3,12 @@ const siteList = [
         category: 'fish',
         siteList: [
             {
+                logo: "https://cdn.itjuzi.com/images/28f521fed39c3b7e48fecd218d5bca6e.png",
+                title: "一觉醒来世界发生了什么",
+                description: "一觉醒来世界发生了什么",
+                url: "http://42.192.209.154:8090/",
+            },
+            {
                 logo: "https://img.zcool.cn/community/016a8359a61d57a8012028a96b4610.jpg@1280w_1l_2o_100sh.jpg",
                 title: "Bilibili",
                 description:
